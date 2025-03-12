@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+
+* {
+    box-sizing: border-box;
+    /* background-color: lightgray */
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: lightgray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+
+}
+
+.container {
+    background-color : gray;
+    border-style: solid;
+    padding: 5px;
+    margin: 10px;
+    text-align: center;
+    width: 400px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    border-radius: 10px;
+}
+
+.input-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+/* #todo-input {
+
+}
+
+#add-task-btn {
+
+} */
+
+input[type='text'] {
+    width: 70%;
+    padding: 10px;
+    background-color: #333333;
+    border: none;
+    border-radius: 5px;
+    color: #FFFFFF ; 
+    outline: none;
+}
+
+button {
+border : none;
+width: 25%;
+padding: 10px;
+background-color: #6200EA;
+border-radius: 5px;
+color: #FFFFFF ; 
+cursor: pointer;
+transition: background-color 0.3s;
+}
+
+button:hover {
+background-color: #3700B3;
+}
+
+delete {
+    background-color: red;
+}
